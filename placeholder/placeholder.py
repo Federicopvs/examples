@@ -44,7 +44,7 @@ settings.configure(
 from django import forms
 from django.conf.urls import url
 from django.core.cache import cache
-from django.core.urlresolvers import reverse
+from django.core.urls import reverse
 from django.core.wsgi import get_wsgi_application
 from django.http import HttpResponse, HttpResponseBadRequest
 from django.shortcuts import render
